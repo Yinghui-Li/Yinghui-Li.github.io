@@ -1,0 +1,69 @@
+
+img{
+position:relative;
+left:10%;
+width:80%;
+max-height:70%;
+}
+
+div#container2{
+position:relative;
+width:80%;
+left:10%;
+}
+
+p{
+position:relative;
+}
+
+botton#3{
+position:absolute;
+left:100%;
+}
+
+botton#2{
+position:absolute;
+right:5%;
+}
+
+botton#1{
+position:absolute;
+right:10%;
+}
+p#id{
+	font-style:italic;
+	font-size:15px;
+	color:#FF0000;
+}
+p#comment{
+	text-indent:5em;
+	font-size:25px;
+	padding:10px;
+}
+p#time{
+text-align:right;
+font-size:10px;
+color:#00FF00;
+border-bottom-style:solid;
+border-bottom-color:#C0C0C0;
+}
+h1{
+margin:20px;
+padding:10px:
+font-weight:700;
+border-bottom-style:solid;
+}
+img{
+padding:20px;
+}
+img:hover{
+var t = (j+3)%4;
+var Image = $("img");
+for(var i=0; i<2; i++)
+{
+	if("Image[i].style.display!="none"")
+	{
+		Image[i].src = "image.picture" + t + ".jpg";
+	}
+}
+}
