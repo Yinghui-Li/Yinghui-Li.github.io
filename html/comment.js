@@ -15,9 +15,9 @@ function changeComment(i)
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
 		{
 			var obj = eval("("+ xmlhttp.responseText + ")");
-			var com=$("p#comment");
-			var id=$("p#id");
-			var time=$("p#time")
+			var com=$("p.comment");
+			var id=$("p.id");
+			var time=$("p.time")
 			for(var s=0; s<10; s++)
 			{
 				if(i*10+s>obj.Comments.length)

@@ -1,4 +1,4 @@
-var j = 2;
+﻿var j = 2;
 var k = 0;
 var url="picture.json"
 localStorage.lastImageURL="image/picture0.jpg";
@@ -65,6 +65,7 @@ function changeImage()
 $(document).ready(function(){
 $("img")[0].onclick = function() {changeImage();};
 $("img")[1].onclick = function() {changeImage();};
+$("p#blockLeft")[0].onclick=function() {changeImage();};
+$("p#blockRight")[0].onclick=function() {changeImage();};
 });
-
 window.onload=function(){setInterval("changeImage()", 2500);changeComment(0);}
